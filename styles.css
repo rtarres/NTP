@@ -1,0 +1,90 @@
+
+.cliente-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cliente-table th, .cliente-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.cliente-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cliente-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+.agregar-link {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+.editar-link {
+    background-color: #05aa12; /* Color de fondo azul */
+    color: rgb(252, 252, 249); /* Color del texto blanco */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+.eliminar-link {
+    background-color: #ff0000; /* Color de fondo azul */
+    color: rgb(255, 254, 254); /* Color del texto blanco */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+.generar-link {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+
+/*Estilos para el formulario crear*/
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
